@@ -20,7 +20,8 @@ function App() {
     // GrowSurf Universal Code
     const script = document.createElement('script');
     script.src = 'https://app.growsurf.com/growsurf.js?v=2.0.0';
-    script.setAttribute('grsf-campaign', '9kmz1h');
+    // replace <CAMPAIGN_ID> with your GrowSurf campaign ID 
+    script.setAttribute('grsf-campaign', '<CAMPAIGN_ID>');
     script.async = true;
     document.head.appendChild(script);
   };
